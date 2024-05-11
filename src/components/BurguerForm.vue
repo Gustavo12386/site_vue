@@ -159,7 +159,7 @@
     }
       
     .checkbox-container span{
-       margin-left: 6px;
+       margin-left: 5px;
        font-weight: bold;
     }
     .submit-btn {
@@ -167,9 +167,9 @@
      color:#fcba03;
      font-weight: bold;
      border: 2px solid #222;
-     padding: 10px;
+     padding: 9px;
      font-size: 16px;
-     margin: 0 auto;
+     margin: 2px;
      cursor: pointer;
      transition: .5s;
    }
