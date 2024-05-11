@@ -101,7 +101,7 @@
       "status": "Solicitado",
       "id": "4"
     },
-    {     
+    {
       "nome": "Gustavo Calderaro",
       "carne": "Veggie burger",
       "pao": "Italiano Branco",
@@ -113,7 +113,6 @@
       "id": "5"
     },
     {
-      
       "nome": "Paulo André",
       "carne": "Alcatra",
       "pao": "Parmesão e Orégano",
@@ -123,6 +122,17 @@
       ],
       "status": "Solicitado",
       "id": "6"
-    }
+    },
+    {
+      "nome": "José Elias",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": "7"
+    }    
   ]
 }

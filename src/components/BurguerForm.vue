@@ -2,7 +2,7 @@
   <div>
      <Message :msg="msg" v-show="msg" />
      <div>
-       <form id="burguer-form" method="POST" @submit="createBurguer">
+       <form id="burguer-form" method="POST" @submit="createBurger">
          <div class="input-container">
           <label for="nome">Nome do cliente</label>
             <input type="text" id="nome" name="name" v-model="nome" placeholder="Digite o seu nome">
@@ -66,7 +66,7 @@
          this.opcionaisdata = data.opcionais;
        },
 
-       async createBurguer(e){
+       async createBurger(e){
        
         //interrompe o formulário para a realização de submit
         e.preventDefault();
@@ -90,7 +90,7 @@
         const res = await req.json();
 
         //colocar uma msg do sistema
-        this.msg = `Pedido N° ${res.id} realizado com sucesso`;
+        this.msg = `Pedido N° ${parseInt(res.id)} realizado com sucesso`;
 
         //limpar msg
         setTimeout(() => this.msg = "", 3000);
