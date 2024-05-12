@@ -98,7 +98,7 @@
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": "4"
     },
     {
@@ -109,30 +109,8 @@
         "Cebola roxa",
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": "5"
-    },
-    {
-      "nome": "Paulo André",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": "6"
-    },
-    {
-      "nome": "José Elias",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": "7"
-    }    
+    }
   ]
 }
